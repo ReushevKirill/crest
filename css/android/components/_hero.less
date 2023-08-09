@@ -1,0 +1,37 @@
+.hero {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	min-height: 1176px;
+	background-image: url('@{img-android}hero-bg.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	z-index: 1;
+
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-image: url('@{img-android}hero-banner-bg1.png');
+		background-repeat: no-repeat;
+		height: 489px;
+	}
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		row-gap: 24px;
+		margin-bottom: -55px;
+	}
+
+	&__title {
+		color: @color-light;
+		text-align: center;
+		font-size: 42px;
+		font-weight: 700;
+		line-height: 120%;
+	}
+}

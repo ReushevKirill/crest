@@ -1,0 +1,42 @@
+.footer {
+	&__line {
+		background-color: @color-light;
+		height: 1px;
+		width: 100%;
+		margin-bottom: 42px;
+	}
+
+	&__copyright {
+		color: inherit;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		column-gap: 42px;
+		padding-bottom: 38px;
+
+		.mobile({
+        column-gap: 17px;
+    });
+
+		img {
+			.mobile({
+            max-width: 22px;
+        });
+		}
+
+		h3 {
+			font-family: @font-nunito;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 110%;
+			letter-spacing: 2.8px;
+			text-transform: uppercase;
+
+			.mobile({
+        font-size: 6px;
+        letter-spacing: 1.166px;
+      });
+		}
+	}
+}

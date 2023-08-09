@@ -1,0 +1,17 @@
+.header {
+  padding: 60px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+
+  &__buttons {
+    display: flex;
+    column-gap: 10px;
+
+    .mobile({
+            display: none;
+        });
+  }
+}

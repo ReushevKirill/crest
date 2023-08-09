@@ -1,0 +1,52 @@
+.btn {
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 18px 52px;
+  border-radius: 36px;
+  font-size: 20px;
+  color: @color-light;
+  line-height: normal;
+  text-transform: uppercase;
+
+  &--secondary {
+    background: @red-gradient;
+    font-weight: 250;
+    filter: saturate(0.6);
+    transition: filter 0.15s linear;
+
+    &:hover {
+      filter: saturate(1);
+    }
+  }
+
+  &--primary {
+    background: @blue-gradient;
+    font-weight: 700;
+    transition: box-shadow 0.2s;
+
+    &:hover {
+      box-shadow: 4px 4px 20px 0px rgba(1, 210, 255, 0.6);
+    }
+  }
+
+  &--arrow {
+    background: transparent;
+    font-weight: 250;
+    border: 1px solid @color-light;
+    column-gap: 12px;
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &::after {
+      content: url('@{img}desktop/arrow.png');
+      display: inline-block;
+      line-height: 8px;
+    }
+  }
+}

@@ -1,0 +1,158 @@
+.product {
+	display: flex;
+	flex-direction: column;
+	border-radius: 40px;
+	box-shadow: 0px 4px 24px -6px rgba(34, 60, 80, 0.2);
+	margin-bottom: 32px;
+
+	&__top {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 12px;
+		background-color: @color-lightblue;
+		filter: drop-shadow(10px 30px 31px rgba(0, 0, 0, 0.09));
+		border-radius: 0px 0px 15px 15px;
+		color: @color-light;
+		margin-bottom: 8px;
+
+		h3 {
+			text-align: center;
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 140%;
+			max-width: 325px;
+			margin-bottom: 10px;
+		}
+
+		&-info {
+			display: flex;
+			align-items: center;
+			column-gap: 12px;
+			margin-bottom: 18px;
+
+			img {
+				border-radius: 16px;
+			}
+		}
+
+		&-list {
+			ul {
+				margin-bottom: 21px;
+			}
+
+			li {
+				display: inline-block;
+				line-height: 70%;
+				&::before {
+					content: '';
+					display: inline-block;
+					border-radius: 50%;
+					height: 5px;
+					width: 5px;
+					background-color: @color-light;
+				}
+
+				&:not(:last-child) {
+					margin-bottom: 8px;
+				}
+
+				span {
+					color: @color-light;
+					font-size: 10px;
+					font-weight: 250;
+					line-height: 120%;
+				}
+			}
+
+			> span {
+				display: flex;
+				align-items: center;
+				column-gap: 8px;
+
+				svg {
+					max-width: 22px;
+					max-height: 22px;
+					path {
+						fill: @color-light;
+					}
+				}
+
+				p {
+					color: @color-light;
+					font-size: 10px;
+					font-weight: 250;
+					line-height: 120%;
+				}
+			}
+		}
+
+		&-buttons {
+			display: flex;
+			align-items: center;
+			column-gap: 4px;
+		}
+	}
+
+	&__btn {
+		cursor: pointer;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 8px 24px;
+		font-size: 12px;
+		border-radius: 14px;
+		font-weight: 250;
+		background-color: transparent;
+		border: 1px solid @color-light;
+		text-transform: uppercase;
+
+		&--active {
+			color: @color-lightblue;
+			background-color: @color-light;
+			transition: none;
+			border: none;
+		}
+	}
+
+	&__textplace {
+		padding: 0px 12px 18px 12px;
+		p {
+			color: @color-darkgray;
+			font-size: 16px;
+			font-weight: 250;
+			line-height: 140%;
+		}
+	}
+
+	&__description {
+		> p {
+			margin-bottom: 4px;
+		}
+
+		span {
+			display: flex;
+			align-items: center;
+			column-gap: 8px;
+
+			svg {
+				width: 22px;
+				height: 22px;
+
+				path {
+					fill: @color-lightblue;
+				}
+			}
+
+			p {
+				font-size: 14px;
+				line-height: 120%;
+			}
+		}
+	}
+
+	&__instruction,
+	&__composition {
+		display: none;
+	}
+}

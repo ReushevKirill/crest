@@ -1,0 +1,99 @@
+.products {
+	position: relative;
+	padding-bottom: 74px;
+	min-height: 500px;
+	background-color: #f0f0f0;
+
+	&__top {
+		position: absolute;
+		left: 0;
+		top: -57px;
+		right: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-image: url('@{img-android}products-top.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 396px;
+	}
+
+	&__container {
+		padding-top: 350px;
+	}
+
+	&__title {
+		color: @color-light;
+		margin-top: -60px;
+	}
+
+	&__wrapper {
+		display: flex;
+		min-width: 0;
+	}
+
+	&__list {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		row-gap: 12px;
+		padding-bottom: 72px;
+	}
+
+	&__arrow-left,
+	&__arrow-right {
+		position: absolute;
+		top: 265px;
+		cursor: pointer;
+		z-index: 60;
+	}
+
+	&__arrow-left {
+		left: -5px;
+
+		&::before {
+			content: url('@{img-android}arrow-left.png');
+		}
+	}
+
+	&__arrow-right {
+		right: -5px;
+
+		&::before {
+			content: url('@{img-android}arrow-right.png');
+		}
+	}
+
+	&__btn {
+		max-width: 280px;
+		width: 100%;
+	}
+
+	&__banner-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+		height: 100%;
+	}
+
+	&__banner {
+		&-text {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			row-gap: 24px;
+			margin-bottom: 24px;
+			max-width: 316px;
+
+			h2 {
+				color: @color-red;
+				text-align: center;
+				font-size: 22px;
+				font-weight: 700;
+				line-height: 120%;
+			}
+		}
+	}
+}
