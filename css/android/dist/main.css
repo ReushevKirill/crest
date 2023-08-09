@@ -241,7 +241,7 @@ a {
   transform: translateY(-2px);
 }
 .btn--arrow::after {
-  content: url('../../../../img/android/arrow.png');
+  content: url('../../../img/android/arrow.png');
   display: inline-block;
   line-height: 8px;
 }
@@ -262,7 +262,7 @@ a {
   transform: translateY(-2px);
 }
 .btn--cart::after {
-  content: url('../../../../img/android/cart.png');
+  content: url('../../../img/android/cart.png');
   display: inline-block;
   line-height: 8px;
 }
@@ -396,7 +396,7 @@ a {
   line-height: 120%;
 }
 .header {
-  background: url('../../../../img/android/header-bg.png');
+  background: url('../../../img/android/header-bg.png');
   background-repeat: no-repeat;
   padding: 25px;
   height: 163px;
@@ -412,7 +412,7 @@ a {
   flex-direction: column;
   justify-content: flex-end;
   min-height: 1176px;
-  background-image: url('../../../../img/android/hero-bg.jpg');
+  background-image: url('../../../img/android/hero-bg.jpg');
   background-position: center top;
   background-repeat: no-repeat;
   z-index: 1;
@@ -421,7 +421,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('../../../../img/android/hero-banner-bg1.png');
+  background-image: url('../../../img/android/hero-banner-bg1.png');
   background-repeat: no-repeat;
   height: 489px;
 }
@@ -449,7 +449,7 @@ a {
   top: -50px;
   width: 100%;
   height: 653px;
-  background-image: url('../../../../img/android/about-bg.png');
+  background-image: url('../../../img/android/about-bg.png');
   background-position: center top;
   background-repeat: no-repeat;
   z-index: -1;
@@ -489,7 +489,7 @@ a {
   position: absolute;
   left: 0;
   top: -152px;
-  background-image: url('../../../../img/android/bg-figures.png');
+  background-image: url('../../../img/android/bg-figures.png');
   background-position: center top;
   background-repeat: no-repeat;
   width: 100%;
@@ -598,7 +598,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../../../../img/android/products-top.png');
+  background-image: url('../../../img/android/products-top.png');
   background-position: center;
   background-repeat: no-repeat;
   height: 396px;
@@ -633,13 +633,13 @@ a {
   left: -5px;
 }
 .products__arrow-left::before {
-  content: url('../../../../img/android/arrow-left.png');
+  content: url('../../../img/android/arrow-left.png');
 }
 .products__arrow-right {
   right: -5px;
 }
 .products__arrow-right::before {
-  content: url('../../../../img/android/arrow-right.png');
+  content: url('../../../img/android/arrow-right.png');
 }
 .products__btn {
   max-width: 280px;

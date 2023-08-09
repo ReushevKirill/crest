@@ -275,7 +275,7 @@ a {
   transform: translateY(-2px);
 }
 .btn--arrow::after {
-  content: url('../../../../img/desktop/arrow.png');
+  content: url('../../../img/desktop/arrow.png');
   display: inline-block;
   line-height: 8px;
 }
@@ -286,7 +286,7 @@ a {
   align-items: center;
 }
 .product:not(:last-child)::after {
-  content: url('../../../../img/desktop/line1.svg');
+  content: url('../../../img/desktop/line1.svg');
   display: block;
   margin-top: 100px;
 }
@@ -307,13 +307,13 @@ a {
   left: 0;
 }
 .product__arrow-left::before {
-  content: url('../../../../img/desktop/arrow-left.png');
+  content: url('../../../img/desktop/arrow-left.png');
 }
 .product__arrow-right {
   right: 0;
 }
 .product__arrow-right::before {
-  content: url('../../../../img/desktop/arrow-right.png');
+  content: url('../../../img/desktop/arrow-right.png');
 }
 .product__cols {
   display: grid;
@@ -713,14 +713,14 @@ a {
 .hero {
   min-height: 1001px;
   position: relative;
-  background-image: url('../../../../img/desktop/hero-bg.png');
+  background-image: url('../../../img/desktop/hero-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   z-index: 6;
 }
 @media screen and (max-width: 430px) {
   .hero {
-    background-image: url('../../../../img/desktop/hero-mobile-bg.png');
+    background-image: url('../../../img/desktop/hero-mobile-bg.png');
     min-height: 821px;
   }
 }
@@ -950,14 +950,14 @@ a {
 }
 .composition {
   min-height: 1395px;
-  background-image: url('../../../../img/desktop/composition-bg.jpg');
+  background-image: url('../../../img/desktop/composition-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 430px) {
   .composition {
     min-height: 1001px;
-    background-image: url('../../../../img/desktop/composition-mobile-bg.png');
+    background-image: url('../../../img/desktop/composition-mobile-bg.png');
   }
 }
 .composition__inner {
@@ -1114,13 +1114,13 @@ a {
   left: 15px;
 }
 .products__arrow-left::before {
-  content: url('../../../../img/desktop/arrow-left.png');
+  content: url('../../../img/desktop/arrow-left.png');
 }
 .products__arrow-right {
   right: 15px;
 }
 .products__arrow-right::before {
-  content: url('../../../../img/desktop/arrow-right.png');
+  content: url('../../../img/desktop/arrow-right.png');
 }
 .products__banner-container {
   display: flex;
