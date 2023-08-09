@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
 	font-family: 'NunitoSans';
 	src: url('../../fonts/NunitoSansRegular.woff2') format('woff2');
 	font-weight: 400;
@@ -39,7 +39,11 @@
 	font-weight: 700;
 	font-display: swap;
 	font-style: normal;
-}
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
 html {
 	box-sizing: border-box;
 }
@@ -689,7 +693,7 @@ a {
 	max-width: 22px;
 }
 .footer__copyright h3 {
-	font-family: 'NunitoSans';
+	font-family: 'Nunito Sans';
 	font-size: 6px;
 	font-weight: 400;
 	line-height: 110%;
